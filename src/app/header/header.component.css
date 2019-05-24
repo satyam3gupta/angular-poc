@@ -1,0 +1,277 @@
+/*header start*/
+.header .navbar>.container .navbar-brand {
+  padding-left: 35px;
+  padding-top: 13px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #3f51b5;
+}
+
+.topheader {
+  background-color: #3f51b5;
+  border: none;
+  border-radius: 0;
+  min-height: 106px;
+}
+
+.header-heading {
+  float: left;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-top: 0;
+}
+
+.header-heading li {
+  font-size: 18.75px;
+  color: #c5cae9;
+}
+
+.headerright {
+  float: right;
+}
+
+.headerright>li .headericon:hover i {
+  color: #e64a19;
+}
+
+.headerright>li {
+  padding: 13px 0px;
+  float: left;
+  padding-right: 35px;
+}
+
+.headerrightall {
+  vertical-align: middle;
+  float: none;
+  margin-top: 30px;
+  width: 100%;
+  padding-left: 393px;
+  display: inline-block;
+  transition: all .30s ease;
+}
+
+.headersearch {
+  float: right;
+  margin-right: 30px;
+  margin-top: 19px;
+}
+
+.headersearch .input-group {
+  position: relative;
+}
+
+.headersearch .input-group input {
+  height: 39px;
+  border-radius: 5px;
+  border: none;
+  min-width: 368px;
+  padding: 0 20px 0 40px;
+  font-family: 'Google Sans';
+  font-size: 14px;
+  color: #6d6d6d;
+
+}
+
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child>.btn,
+.input-group-btn:first-child>.btn-group>.btn,
+.input-group-btn:first-child>.dropdown-toggle,
+.input-group-btn:last-child>.btn-group:not(:last-child)>.btn,
+.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.headersearch .input-group input::placeholder {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #6d6d6d;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+
+.headersearch .input-group span {
+  position: absolute;
+  left: 19px;
+  top: 28%;
+  display: inline-block;
+  z-index: 3;
+}
+
+.headersearch .input-group span i {
+  font-size: 18px;
+  color: #6b6b6b;
+  cursor: pointer;
+}
+
+.headerright>li .headericon {
+  position: relative;
+  width: 27px;
+  height: 23px;
+  display: inline-block;
+}
+
+.headerright li .badge {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #e64a19;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+  right: -4px;
+  padding: 0;
+}
+
+.activelogo {
+  width: 12px;
+  height: 12px;
+  background: #13ca00;
+  position: absolute;
+  left: 0;
+  border-radius: 50%;
+  top: 2px;
+  border: 1px solid #fff;
+}
+
+.user-nav-name {
+  font-size: 16.67px;
+  color: hsla(216, 2%, 43%, 0.89);
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: 1.5px;
+}
+
+.userinfo {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.usersec .username #useropt {
+  min-width: unset;
+  position: absolute;
+  left: 27px;
+  background: #edf0f5;
+  padding: 0 10px;
+}
+
+.usersec .username a:focus,
+.usersec .username a:hover {
+  background: transparent;
+}
+
+#useropt li a {
+  color: #000;
+  background: transparent;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.headericon a i {
+  font-size: 25px;
+  color: #fff;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #3f51b5;
+}
+
+.sec3righticon:hover {
+  background: #eb8129;
+  border-color: #eb8129;
+  cursor: pointer;
+}
+
+.sec3righticon:hover i {
+  color: #fff;
+}
+
+.headericon a:hover i {
+  color: #fff;
+}
+
+/*header end*/
+/*media Query*/
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .topheader {
+    min-height: 75px;
+  }
+
+  .headerrightall {
+    margin-top: 15px;
+  }
+
+  .headerrightall {
+    padding-left: 316px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .headerrightall {
+    margin-top: 10px;
+  }
+
+  .topheader {
+    min-height: 69px;
+  }
+
+  .headerrightall {
+    padding-left: 293px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .headerrightall {
+    padding-left: 235px;
+  }
+}
+
+@media only screen and (max-width: 668px) {
+  .headerright>li {
+    padding-right: 22px;
+  }
+
+  .headericon a i {
+    font-size: 20px;
+  }
+
+  .headerright li .badge {
+    font-size: 12px;
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
+    top: -7px;
+    right: 3px;
+  }
+
+  .header-heading {
+    margin-top: 0;
+  }
+
+  .header-heading {
+    display: block;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .headerright>li {
+    padding-right: 17px;
+  }
+}

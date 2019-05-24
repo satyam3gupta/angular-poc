@@ -1,0 +1,45 @@
+<!--header start-->
+<header class="header">
+  <div class="topheader sticky">
+    <div class="container-fluid">
+      <div class="headerrightall" [ngClass]="{'nopadding': isChecked}">
+        <ul class="header-heading">
+          <li>{{sharedService.heading}}</li>
+        </ul>
+        <ul class="headerright">
+          <li>
+            <span class="headericon">
+              <a href="javascript:void(0);">
+                <i class="fa fa-bell" aria-hidden="true"></i>
+              </a>
+              <span class="badge">1</span>
+            </span>
+          </li>
+          <li>
+            <span class="headericon">
+              <a href="javascript:void(0);">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </a>
+              <span class="badge">1</span>
+            </span>
+          </li>
+          <li>
+            <span class="headericon">
+              <a href="javascript:void(0);">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </a>
+            </span>
+          </li>
+          <li>
+            <span class="headericon" (click)="onHamburgerMenuClick()">
+              <a href="javascript:void(0);">
+                <i class="fa fa-th" aria-hidden="true"></i>
+              </a>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<!--header end-->
